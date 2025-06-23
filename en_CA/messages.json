@@ -1,0 +1,9 @@
+{
+    "message.simple": "A simple message.",
+    "message.argument": "Hi, <x id=\"INTERPOLATION\" equiv-text=\"{{ name }}\"\/>! 👋",
+    "message.plural": "{VAR_PLURAL, plural, one {<x id=\"INTERPOLATION\"\/> item} other {<x id=\"INTERPOLATION\"\/> items}}",
+    "message.gender": "{VAR_SELECT, select, male {Mr <x id=\"INTERPOLATION\"\/>} female {Mrs <x id=\"INTERPOLATION\"\/>} other {Client <x id=\"INTERPOLATION\"\/>}}",
+    "message.number-format": "Formatted number: <x id=\"INTERPOLATION\" equiv-text=\"{{ amount | number : &quot;.2&quot; }}\"\/>",
+    "message.date-format": "Formatted date: <x id=\"INTERPOLATION\" equiv-text=\"{{ currentDate | date : &quot;fullDate&quot; }}\"\/>",
+    "message.component-argument": "Made with ❤️ by <x id=\"PH\" equiv-text=\"this.company\"\/>"
+}
