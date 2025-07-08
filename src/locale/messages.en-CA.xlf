@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+	<file original="" datatype="plaintext" xml:space="preserve" source-language="en-CA" target-language="en-CA">
+		<header>
+			<tool tool-id="lokalise.com" tool-name="Lokalise"></tool>
+		</header>
+		<body>
+			<trans-unit id="welcome_header">
+				<source>Hello world!</source>
+				<target>Hello world!</target>
+			</trans-unit>
+		</body>
+	</file>
+	<file original="ng2.template" datatype="plaintext" xml:space="preserve" source-language="en-CA" target-language="en-CA">
+		<header>
+			<tool tool-id="lokalise.com" tool-name="Lokalise"></tool>
+		</header>
+		<body>
+			<trans-unit id="message.simple" datatype="html">
+				<source>A simple message.</source>
+				<target>A simple message.</target>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/app.component.html</context>
+					<context context-type="linenumber">2,4</context>
+				</context-group>
+				<note priority="1" from="description">Simple message example</note>
+			</trans-unit>
+			<trans-unit id="message.argument" datatype="html">
+				<source>Hi, <x id="INTERPOLATION" equiv-text="{{ name }}"/>! 👋</source>
+				<target>Hi, <x id="INTERPOLATION" equiv-text="{{ name }}"/>! 👋</target>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/app.component.html</context>
+					<context context-type="linenumber">4,6</context>
+				</context-group>
+				<note priority="1" from="description">Argument message example</note>
+			</trans-unit>
+			<trans-unit id="message.plural" datatype="html">
+				<source>{VAR_PLURAL, plural, one {<x id="INTERPOLATION"/> item} other {<x id="INTERPOLATION"/> items}}</source>
+				<target>{VAR_PLURAL, plural, one {<x id="INTERPOLATION"/> item} other {<x id="INTERPOLATION"/> items}}</target>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/app.component.html</context>
+					<context context-type="linenumber">6,8</context>
+				</context-group>
+				<note priority="1" from="description">Plural message example</note>
+			</trans-unit>
+			<trans-unit id="message.gender" datatype="html">
+				<source>{VAR_SELECT, select, male {Mr <x id="INTERPOLATION"/>} female {Mrs <x id="INTERPOLATION"/>} other {Client <x id="INTERPOLATION"/>}}</source>
+				<target>{VAR_SELECT, select, male {Mr <x id="INTERPOLATION"/>} female {Mrs <x id="INTERPOLATION"/>} other {Client <x id="INTERPOLATION"/>}}</target>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/app.component.html</context>
+					<context context-type="linenumber">8,10</context>
+				</context-group>
+				<note priority="1" from="description">Gender message example</note>
+			</trans-unit>
+			<trans-unit id="message.number-format" datatype="html">
+				<source>Formatted number: <x id="INTERPOLATION" equiv-text="{{ amount | number : &quot;.2&quot; }}"/></source>
+				<target>Formatted number: <x id="INTERPOLATION" equiv-text="{{ amount | number : &quot;.2&quot; }}"/></target>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/app.component.html</context>
+					<context context-type="linenumber">10,12</context>
+				</context-group>
+				<note priority="1" from="description">Formatted number message example</note>
+			</trans-unit>
+			<trans-unit id="message.date-format" datatype="html">
+				<source>Formatted date: <x id="INTERPOLATION" equiv-text="{{ currentDate | date : &quot;fullDate&quot; }}"/></source>
+				<target>Formatted date: <x id="INTERPOLATION" equiv-text="{{ currentDate | date : &quot;fullDate&quot; }}"/></target>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/app.component.html</context>
+					<context context-type="linenumber">12,15</context>
+				</context-group>
+				<note priority="1" from="description">Formatted date message example</note>
+			</trans-unit>
+			<trans-unit id="message.component-argument" datatype="html">
+				<source>Made with ❤️ by <x id="PH" equiv-text="this.company"/></source>
+				<target>Made with ❤️ by <x id="PH" equiv-text="this.company"/></target>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/app.component.ts</context>
+					<context context-type="linenumber">20</context>
+				</context-group>
+				<note priority="1" from="description">Component argument message example</note>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

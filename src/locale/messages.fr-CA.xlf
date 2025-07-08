@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+	<file original="ng2.template" datatype="plaintext" xml:space="preserve" source-language="en-CA" target-language="fr-CA">
+		<header>
+			<tool tool-id="lokalise.com" tool-name="Lokalise"></tool>
+		</header>
+		<body>
+			<trans-unit id="message.date-format" datatype="html">
+				<source>Formatted date: <x id="INTERPOLATION" equiv-text="{{ currentDate | date : &quot;fullDate&quot; }}"/></source>
+				<target>Date formatée <x id="INTERPOLATION" equiv-text="{{ currentDate | date : &quot;fullDate&quot; }}"/></target>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/app.component.html</context>
+					<context context-type="linenumber">12,15</context>
+				</context-group>
+				<note priority="1" from="description">Formatted date message example</note>
+			</trans-unit>
+			<trans-unit id="message.component-argument" datatype="html">
+				<source>Made with ❤️ by <x id="PH" equiv-text="this.company"/></source>
+				<target>Fait avec le coeur par <x id="PH" equiv-text="this.company"/></target>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/app.component.ts</context>
+					<context context-type="linenumber">20</context>
+				</context-group>
+				<note priority="1" from="description">Component argument message example</note>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
