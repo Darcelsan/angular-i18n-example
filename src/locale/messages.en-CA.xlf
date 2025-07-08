@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+	<file original="" datatype="plaintext" xml:space="preserve" source-language="en-CA" target-language="en-CA">
+		<header>
+			<tool tool-id="lokalise.com" tool-name="Lokalise"></tool>
+		</header>
+		<body>
+			<trans-unit id="welcome_header">
+				<source>Hello world!</source>
+				<target>Hello world!</target>
+			</trans-unit>
+			<trans-unit id="full_name">
+				<source>Full name</source>
+				<target>Full name</target>
+			</trans-unit>
+			<trans-unit id="book_a_demo">
+				<source>Book a demo</source>
+				<target>Book a demo</target>
+			</trans-unit>
+			<trans-unit id="log_in_with_sso">
+				<source>Log in with SSO</source>
+				<target>Log in with SSO</target>
+			</trans-unit>
+			<trans-unit id="forgot_password?">
+				<source>Forgot password? </source>
+				<target>Forgot password? </target>
+			</trans-unit>
+			<trans-unit id="by_signing_up__you_accept_our_terms_of_service_and_privacy_policy.">
+				<source>By signing up, you accept our Terms of Service and Privacy Policy.</source>
+				<target>By signing up, you accept our Terms of Service and Privacy Policy.</target>
+			</trans-unit>
+			<trans-unit id="sign_up">
+				<source>Sign Up</source>
+				<target>Sign Up</target>
+			</trans-unit>
+			<trans-unit id="[%s]">
+				<source>{{0}}</source>
+				<target>{{0}}</target>
+			</trans-unit>
+			<trans-unit id="log_in">
+				<source>Log In</source>
+				<target>Log In</target>
+			</trans-unit>
+			<trans-unit id="username">
+				<source>Username</source>
+				<target>Username</target>
+			</trans-unit>
+			<trans-unit id="password">
+				<source>Password</source>
+				<target>Password</target>
+			</trans-unit>
+			<trans-unit id="or_sign_up_with_your_email">
+				<source>Or sign up with your email </source>
+				<target>Or sign up with your email </target>
+			</trans-unit>
+			<trans-unit id="•••••••••••••">
+				<source>•••••••••••••</source>
+				<target>•••••••••••••</target>
+			</trans-unit>
+			<trans-unit id="try_it_free">
+				<source>Try it free</source>
+				<target>Try it free</target>
+			</trans-unit>
+			<trans-unit id="sign_up_with_google">
+				<source>Sign Up with Google</source>
+				<target>Sign Up with Google</target>
+			</trans-unit>
+			<trans-unit id="whether_it’s_your_cloud_file_storage__task_management_or_communication_tools,_integrate_lokalise_with_thousands_of_other_apps_on_zapier_to_automate_your_workflow.">
+				<source>Whether it’s your cloud file storage, task management, or communication tools, integrate Lokalise with thousands of other apps on Zapier to automate your workflow.</source>
+				<target>Whether it’s your cloud file storage, task management, or communication tools, integrate Lokalise with thousands of other apps on Zapier to automate your workflow.</target>
+			</trans-unit>
+			<trans-unit id="our_goal_is_to_eliminate_the_hassle_of_localization_by_providing_tools_to_automate__integrate_and_better_manage_your_translations._lokalise_is_a_better_way_for_growth-minded_businesses_to_expand_their">
+				<source>Our goal is to eliminate the hassle of localization by providing tools to automate, integrate, and better manage your translations. Lokalise is a better way for growth-minded businesses to expand their mobile apps, games, software or digital content into multiple languages.</source>
+				<target>Our goal is to eliminate the hassle of localization by providing tools to automate, integrate, and better manage your translations. Lokalise is a better way for growth-minded businesses to expand their mobile apps, games, software or digital content into multiple languages.</target>
+			</trans-unit>
+			<trans-unit id="lokalise_integration_for_zapier">
+				<source>Lokalise integration for Zapier</source>
+				<target>Lokalise integration for Zapier</target>
+			</trans-unit>
+			<trans-unit id="this_text_has_a_link">
+				<source>This text &lt;u&gt;has&lt;/u&gt; a link</source>
+				<target>This text &lt;u&gt;has&lt;/u&gt; a link</target>
+			</trans-unit>
+			<trans-unit id="meet_lokalise">
+				<source>Meet Lokalise</source>
+				<target>Meet Lokalise</target>
+			</trans-unit>
+			<trans-unit id="try_all_features_for_14_days_·_no_credit_card_required">
+				<source>Try all features for 14 days · No credit card required</source>
+				<target>Try all features for 14 days · No credit card required</target>
+			</trans-unit>
+			<trans-unit id="log_in_with_google">
+				<source>Log In with Google</source>
+				<target>Log In with Google</target>
+			</trans-unit>
+			<trans-unit id="log_in_to_an_existing_team's_account_now">
+				<source>Log in to an existing team's account now</source>
+				<target>Log in to an existing team's account now</target>
+			</trans-unit>
+			<trans-unit id="connect_with_more_than_1_000_apps">
+				<source>Connect with more than 1,000 apps</source>
+				<target>Connect with more than 1,000 apps</target>
+			</trans-unit>
+			<trans-unit id="e-mail">
+				<source>E-mail</source>
+				<target>E-mail</target>
+			</trans-unit>
+		</body>
+	</file>
+	<file original="ng2.template" datatype="plaintext" xml:space="preserve" source-language="en-CA" target-language="en-CA">
+		<header>
+			<tool tool-id="lokalise.com" tool-name="Lokalise"></tool>
+		</header>
+		<body>
+			<trans-unit id="message.simple" datatype="html">
+				<source>A simple message.</source>
+				<target>A simple message.</target>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/app.component.html</context>
+					<context context-type="linenumber">2,4</context>
+				</context-group>
+				<note priority="1" from="description">Simple message example</note>
+			</trans-unit>
+			<trans-unit id="message.argument" datatype="html">
+				<source>Hi, <x id="INTERPOLATION" equiv-text="{{ name }}"/>! 👋</source>
+				<target>Hi, <x id="INTERPOLATION" equiv-text="{{ name }}"/>! 👋</target>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/app.component.html</context>
+					<context context-type="linenumber">4,6</context>
+				</context-group>
+				<note priority="1" from="description">Argument message example</note>
+			</trans-unit>
+			<trans-unit id="message.plural" datatype="html">
+				<source>{VAR_PLURAL, plural, one {<x id="INTERPOLATION"/> item} other {<x id="INTERPOLATION"/> items}}</source>
+				<target>{VAR_PLURAL, plural, one {<x id="INTERPOLATION"/> item} other {<x id="INTERPOLATION"/> items}}</target>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/app.component.html</context>
+					<context context-type="linenumber">6,8</context>
+				</context-group>
+				<note priority="1" from="description">Plural message example</note>
+			</trans-unit>
+			<trans-unit id="message.gender" datatype="html">
+				<source>{VAR_SELECT, select, male {Mr <x id="INTERPOLATION"/>} female {Mrs <x id="INTERPOLATION"/>} other {Client <x id="INTERPOLATION"/>}}</source>
+				<target>{VAR_SELECT, select, male {Mr <x id="INTERPOLATION"/>} female {Mrs <x id="INTERPOLATION"/>} other {Client <x id="INTERPOLATION"/>}}</target>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/app.component.html</context>
+					<context context-type="linenumber">8,10</context>
+				</context-group>
+				<note priority="1" from="description">Gender message example</note>
+			</trans-unit>
+			<trans-unit id="message.number-format" datatype="html">
+				<source>Formatted number: <x id="INTERPOLATION" equiv-text="{{ amount | number : &quot;.2&quot; }}"/></source>
+				<target>Formatted number: <x id="INTERPOLATION" equiv-text="{{ amount | number : &quot;.2&quot; }}"/></target>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/app.component.html</context>
+					<context context-type="linenumber">10,12</context>
+				</context-group>
+				<note priority="1" from="description">Formatted number message example</note>
+			</trans-unit>
+			<trans-unit id="message.date-format" datatype="html">
+				<source>Formatted date: <x id="INTERPOLATION" equiv-text="{{ currentDate | date : &quot;fullDate&quot; }}"/></source>
+				<target>Formatted date: <x id="INTERPOLATION" equiv-text="{{ currentDate | date : &quot;fullDate&quot; }}"/></target>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/app.component.html</context>
+					<context context-type="linenumber">12,15</context>
+				</context-group>
+				<note priority="1" from="description">Formatted date message example</note>
+			</trans-unit>
+			<trans-unit id="message.component-argument" datatype="html">
+				<source>Made with ❤️ by <x id="PH" equiv-text="this.company"/></source>
+				<target>Made with ❤️ by <x id="PH" equiv-text="this.company"/></target>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/app.component.ts</context>
+					<context context-type="linenumber">20</context>
+				</context-group>
+				<note priority="1" from="description">Component argument message example</note>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
